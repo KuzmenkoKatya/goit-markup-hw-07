@@ -323,6 +323,10 @@ body {
   fill: #2196F3;
 }
 
+.modal-close:hover .modal-close-icon {
+  fill: #2196f3;
+}
+
 .modal-close use {
   fill: #000000;
 }
@@ -331,12 +335,6 @@ body {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-}
-
-/*.modal-close:hover .modal-close-icon {color: #2196f3;}*/
-/*.modal-close-icon:hover {color: #2196f3;}*/
-.modal.modal-close:hover .modal-close-icon {
-  fill: #2196f3;
 }
 
 .modal-close-icon {
@@ -365,6 +363,22 @@ body {
   transition: border-color var(--animation-timing);
 }
 
+.form-input::-webkit-input-placeholder {
+  color: #2196f3;
+}
+
+.form-input:-ms-input-placeholder {
+  color: #2196f3;
+}
+
+.form-input::-ms-input-placeholder {
+  color: #2196f3;
+}
+
+.form-input::placeholder {
+  color: #2196f3;
+}
+
 .form-input-email {
   min-width: 358px;
   height: 50px;
@@ -383,22 +397,6 @@ body {
   margin-right: 12px;
   font-size: 16px;
   background-color: #2F303A;
-}
-
-.form-input::-webkit-input-placeholder {
-  color: #2196f3;
-}
-
-.form-input:-ms-input-placeholder {
-  color: #2196f3;
-}
-
-.form-input::-ms-input-placeholder {
-  color: #2196f3;
-}
-
-.form-input::placeholder {
-  color: #2196f3;
 }
 
 .input-text {
