@@ -137,13 +137,6 @@ body {
           transform: scale(1.2);
 }
 
-.sacondary-button:hover {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
 .hero-primary-button {
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -164,6 +157,13 @@ body {
   transition: color, background-color var(--animation-timing), -webkit-box-shadow;
   transition: box-shadow, color, background-color var(--animation-timing);
   transition: box-shadow, color, background-color var(--animation-timing), -webkit-box-shadow;
+}
+
+.sacondary-button:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .modal-button {
