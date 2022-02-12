@@ -12,7 +12,8 @@ display:inline-block;}
 .footer-logo-design {color: var(--accent-color);}
 .footer-contact {font-style: normal;}  
 .futer-item .link {color: var(--sacondary-white-color); 
-                  transition: color var(--animation-timing);}
+                  transition: color var(--animation-timing);
+                  &:hover, &:focus {color: var(--accent-color);}}
 .footer-contact .contact-location {color: var(--white-color);}  
 .futer-item .list:not(:first-child){margin-top: 9px;}
 .footer-container {display: flex; align-items: baseline;}
