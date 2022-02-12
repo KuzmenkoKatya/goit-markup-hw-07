@@ -957,13 +957,11 @@ body {
   transition: border-color var(--animation-timing);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-link:hover, .client-link:focus {
   border-color: #2196f3;
 }
 
-.client-link:hover .client-icon,
-.client-link:focus .client-icon {
+.client-link:hover .client-icon, .client-link:focus .client-icon {
   fill: #2196f3;
 }
 
