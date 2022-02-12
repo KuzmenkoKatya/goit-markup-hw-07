@@ -1003,6 +1003,8 @@ body {
 
 .futer-item .link {
   color: var(--sacondary-white-color);
+  -webkit-transition: color var(--animation-timing);
+  transition: color var(--animation-timing);
 }
 
 .footer-contact .contact-location {
@@ -1069,22 +1071,16 @@ body {
   transition: background-color var(--animation-timing);
 }
 
-.footer-icon-item:not(:last-child) {
-  margin-right: 10px;
-}
-
 .footer-icon {
   fill: currentColor;
 }
 
-.footer-icon-link:hover,
-.footer-icon-link:focus {
-  background-color: var(--accent-color);
+.footer-icon-item:not(:last-child) {
+  margin-right: 10px;
 }
 
-.futer-item .link {
-  -webkit-transition: color var(--animation-timing);
-  transition: color var(--animation-timing);
+.footer-icon-link:hover, .footer-icon-link:focus {
+  background-color: var(--accent-color);
 }
 
 .footer-right {
