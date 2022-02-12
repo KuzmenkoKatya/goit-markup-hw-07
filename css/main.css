@@ -319,12 +319,12 @@ body {
   right: 8px;
 }
 
-.modal-close use {
-  fill: #000000;
-}
-
 .modal-close:hover use {
   fill: #2196F3;
+}
+
+.modal-close use {
+  fill: #000000;
 }
 
 .is-hidden {
