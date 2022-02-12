@@ -1129,7 +1129,7 @@ body {
   margin-bottom: 50px;
 }
 
-.gallery-nav .list {
+.gallery-nav.list {
   text-align: center;
 }
 
@@ -1166,16 +1166,21 @@ body {
   margin-top: 30px;
 }
 
-.card-link:hover, .card-link:focus {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .card-link {
   -webkit-transition: -webkit-box-shadow var(--animation-timing);
   transition: -webkit-box-shadow var(--animation-timing);
   transition: box-shadow var(--animation-timing);
   transition: box-shadow var(--animation-timing), -webkit-box-shadow var(--animation-timing);
+}
+
+.card-link:hover, .card-link:focus {
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-link:hover .gallery-img-text {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .section-projects {
@@ -1185,11 +1190,6 @@ body {
 
 .list-wrap {
   position: relative;
-}
-
-.card-link:hover .gallery-img-text {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .gallery-img-text {
