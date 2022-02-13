@@ -17,8 +17,8 @@
   {display: flex;
   flex-wrap: wrap; 
    justify-content: space-between; }  
-   .client-item + .client-item {margin-left: 30px;}  
-   .client-item 
+   .client-list__item  + .client-list__item  {margin-left: 30px;}  
+   .client-list__item 
    {width: 170px;
     height: 92px;   
     align-items: center;}  
